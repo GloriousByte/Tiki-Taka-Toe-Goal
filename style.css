@@ -1,0 +1,105 @@
+.outercontainer{
+   display: flex;
+   height: 95vh;
+   width: 95vw;
+   margin: auto;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(218, 136, 30);
+  
+}
+
+.preinnercontainer{
+    height:90%;
+    width:90%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    background-color: rgb(51, 46, 3);
+    border-radius: 5%;
+    gap:6px;
+}
+
+.titleandscreen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:90%;
+    width:60%;
+    gap:6px;
+    background-color: darkkhaki;
+    border: 2px solid black;
+}
+
+.preinnercontainer p{
+    margin-top: 4px;
+    color: beige;
+
+}
+
+.innercontainer{
+    display: grid;
+    height: 70%;
+    width: 50%;
+    gap:2px;
+    background-color: rgb(161, 80, 80);
+    border: 2px solid rgb(172, 119, 6);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.symbolbox{
+    border: 2px solid pink;
+    height: 100%;
+    width:100%;
+    background-color:black ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbolbox p{
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.turnandscore{
+    height:90%;
+    width: 25%;
+    background-color: darkkhaki;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.playerturn{
+    height: 40%;
+    background-color: aquamarine;
+}
+
+.playerturn p{
+    font-size: larger;
+    color:black;
+    font-style: oblique;
+    background-color: beige;
+    width: 100%;
+}
+
+.playerscore{
+    height: 60%;
+    display: flex;
+    gap:4px;
+    flex-direction: column;
+    background-color: blue;
+}
+.playerone{
+    height:40%;
+    background-color: blueviolet;
+}
+
+.playertwo{
+    height:40%;
+    background-color: rgb(27, 141, 65);
+}
